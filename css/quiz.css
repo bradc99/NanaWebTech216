@@ -1,0 +1,53 @@
+/* Quiz Styles */
+.quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#quiz-container {
+  display: none;
+  margin: 20px 0;
+}
+
+#question {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+#answers {
+  list-style-type: none;
+  padding: 0;
+}
+
+#answers li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#answers li:hover {
+  background: #e0e0e0;
+}
+
+#next {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#next:hover {
+  background: #555;
+}
+
+#result {
+  font-size: 1.2em;
+  margin-top: 20px;
+}

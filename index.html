@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="carousel.html">Carousel</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>Welcome to Nana Educational Website</h1>
+        <p>
+          Providing educational resources and interactive content to help
+          students learn more effectively.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <h2>About Our Website</h2>
+        <p>
+          This website is designed to provide educational resources and
+          interactive content to help students learn more effectively. We offer
+          a variety of tools and resources, including an image gallery and a
+          carousel, to enhance the learning experience.
+        </p>
+      </section>
+    </main>
+    <footer>&copy; 2024 Nana Educational Website</footer>
+    <script>
+      function toggleMenu() {
+        document.querySelector(".menu").classList.toggle("open");
+      }
+    </script>
+  </body>
+</html>

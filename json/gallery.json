@@ -1,0 +1,49 @@
+{
+  "images": [
+    {
+      "thumbnail": "images/p1.jpg",
+      "full": "images/p1.jpg",
+      "description": "Image 1 Description"
+    },
+    {
+      "thumbnail": "images/p2.jpg",
+      "full": "images/p2.jpg",
+      "description": "Image 2 Description"
+    },
+    {
+      "thumbnail": "images/p3.jpg",
+      "full": "images/p3.jpg",
+      "description": "Image 3 Description"
+    },
+    {
+      "thumbnail": "images/p4.jpg",
+      "full": "images/p4.jpg",
+      "description": "Image 4 Description"
+    },
+    {
+      "thumbnail": "images/p5.jpg",
+      "full": "images/p5.jpg",
+      "description": "Image 5 Description"
+    },
+    {
+      "thumbnail": "images/p6.jpg",
+      "full": "images/p6.jpg",
+      "description": "Image 6 Description"
+    },
+    {
+      "thumbnail": "images/p7.jpg",
+      "full": "images/p7.jpg",
+      "description": "Image 7 Description"
+    },
+    {
+      "thumbnail": "images/p8.jpg",
+      "full": "images/p8.jpg",
+      "description": "Image 8 Description"
+    },
+    {
+      "thumbnail": "images/p9.jpg",
+      "full": "images/p9.jpg",
+      "description": "Image 9 Description"
+    }
+  ]
+}
